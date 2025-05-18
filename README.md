@@ -28,7 +28,18 @@ for a heat eq effect:
 python3 -m cli heat --input image1.jpg --output heat_result.gif --num-iter 200 --skip-step 2 --weight 0.2 --noise-freq 3 --noise-strength 5.0
 ```
 
+or you can run this tool with a GUI using Streamlit:
+
+```bash
+pip install streamlit
+streamlit run gui.py
+```
+
+then, open the URL shown in your brouser.
+
+
 You can tweak the parameters to control how the effect looks.
+
 
 this repo includes some images for test, so you can jump right in and try things out without needing to find your own picture.
 
