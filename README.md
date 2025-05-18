@@ -1,6 +1,7 @@
 # image_deform_pde
 
 ![demo](ex/result.gif)
+
 ![demo](ex/result2.gif)
 
 this is a Python tool that lets you play around with images using physics-inspired effects.
