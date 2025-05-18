@@ -1,8 +1,9 @@
 # image_deform_pde
 
-![demo](ex/result.gif)
+<img src="ex/result.gif" width="500">
 
-![demo](ex/result2.gif)
+<img src="ex/result2.gif" width="500">
+
 
 this is a Python tool that lets you play around with images using physics-inspired effects.
 This is a fun way to explore how simple PDEs affect image data. It’s great for learning or experimenting with visual effects inspired by math and physics.
