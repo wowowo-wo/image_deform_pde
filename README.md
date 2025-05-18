@@ -35,7 +35,7 @@ this repo includes some images for test, so you can jump right in and try things
 example(The above gif was generated using this command):
 
 ```bash
-python3 -m cli wave --input1 imgs_for_test/eps.jpg --input2 imgs_for_test/mikudayo.webp --output result.gif --num-iter 512 --skip-step 2 --weight 0.2 --noise-freq 3 --noise-strength 5.0
+python3 -m cli wave --input1 imgs_for_test/loveless.jpg --input2 imgs_for_test/mikudayo.webp --output result.gif --num-iter 512 --skip-step 2 --weight 0.2 --noise-freq 3 --noise-strength 5.0
 ```
 
 ## Requirements
