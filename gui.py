@@ -11,11 +11,11 @@ if mode == "wave":
     img1 = st.file_uploader("Upload Image 1", type=["jpg","jpeg","png","webp"])
     img2 = st.file_uploader("Upload Image 2", type=["jpg","jpeg","png","webp"])
     
-    num_iter = st.slider("Number of iterations", 10, 500, 240)
+    num_iter = st.slider("Number of iterations", 10, 1000, 240)
     skip_step = st.slider("Skip step", 1, 20, 1)
-    weight = st.slider("Wave strength (weight)", 0.0, 2.5, 0.1)
+    weight = st.slider("Wave strength (weight)", 0.0, 0.25, 0.1)
     noise_freq = st.slider("Noise frequency", value=0, step=1)
-    noise_strength = st.slider("Noise strength", 0.0, 1000.0, 0.0)
+    noise_strength = st.slider("Noise strength", 0.0, 500.0, 0.0)
     
     if st.button("Run Wave Deformation") and img1 and img2:
         with open("tmp_img1.png", "wb") as f:
@@ -39,11 +39,11 @@ elif mode == "heat":
     st.header("Heat Deformation")
     img = st.file_uploader("Upload Image", type=["jpg","jpeg","png","webp"])
     
-    num_iter = st.slider("Number of iterations", 10, 500, 240)
+    num_iter = st.slider("Number of iterations", 10, 1000, 240)
     skip_step = st.slider("Skip step", 1, 20, 1)
-    weight = st.slider("Blur strength (weight)", 0.0, 2.5, 0.1)
+    weight = st.slider("Blur strength (weight)", 0.0, 0.25, 0.1)
     noise_freq = st.slider("Noise frequency", value=0, step=1)
-    noise_strength = st.slider("Noise strength", 0.0, 1000.0, 0.0)
+    noise_strength = st.slider("Noise strength", 0.0, 500.0, 0.0)
     
     if st.button("Run Heat Deformation") and img:
         with open("tmp_input.png", "wb") as f:
